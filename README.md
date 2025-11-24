@@ -3,15 +3,13 @@
 ## 開発環境
 
 > [!CAUTION]
-> ⚠️Arduino Due(ATSAM3X8E)のArduino側のサポートが5年前(2020年)から更新なし
+> ⚠️Arduino Due(ATSAM3X8E)のドライバは13年前(2012年)から更新なし
 
 - H/W
   - [Arduino Due](https://docs.arduino.cc/hardware/due/)🔗
 - S/W
   - IDE
-    - [Arduino IDE V2.3.6](https://github.com/arduino/arduino-ide/releases/tag/2.3.6)🔗
-  - ボードライブラリ
-    - [ArduinoCore-sam](https://github.com/arduino/ArduinoCore-sam)🔗
+    - [PlatformIO](https://platformio.org/)🔗
 
 ## ATSAM3X8Eのスペック
 
@@ -26,7 +24,7 @@
 | SRAM | 96 KB | - |
 | DMA | x6本 | - |
 | GPIO | x103本 | - |
-| 外部バス | 32bit x7本 |  |
+| 外部バス | 32bit x7本 | - |
 | I2C | x2本 | - |
 | I2S | x1本 | - |
 | SPI | x6本 | - |

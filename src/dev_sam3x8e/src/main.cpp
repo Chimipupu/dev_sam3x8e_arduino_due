@@ -11,12 +11,19 @@
 
 #include <Arduino.h>
 #include <stdint.h>
+#include "drv_dac.h"
 
 void setup()
 {
+    // UART初期化
     Serial.begin(115200);
     delay(100);
     Serial.println("SAM3X8E Develop by Chimipupu(https://github.com/Chimipupu)");
+
+    // DAC初期化
+    drv_dac_init();
+
+    // GPIO初期化
     pinMode(LED_BUILTIN, OUTPUT);
 }
 
